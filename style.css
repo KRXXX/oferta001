@@ -122,26 +122,27 @@ sup{
 }
 
 #box1:hover{
-  box-shadow: var(--orange-shadow);
+  box-shadow: 8px -8px 18px 0px var(--orange-shadow);
   margin-top: 10px;
   transition: 1s;
 
 }
 
 #box2:hover{
- box-shadow: var(--turquoise-shadow);
+  box-shadow: 8px -8px 18px 0px var(--turquoise-shadow);
  margin-top: 10px;
  transition: 1s;
 }
 
 #box3:hover{
   box-shadow: var(--light-blue-shadow);
+  box-shadow: 8px -8px 18px 0px var(--light-blue-shadow);
   margin-top: 10px;
   transition: 1s;
 }
 
 #box4:hover{
-  box-shadow: var(--gray-shadow);
+  box-shadow: 8px -8px 18px 0px var(--gray-shadow);
   margin-top: 10px;
   transition: 1s;
 }
@@ -151,3 +152,4 @@ button:hover{
   background-color: white;
   transition: 1s;
 }
+
