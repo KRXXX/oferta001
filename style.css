@@ -123,19 +123,27 @@ sup{
 
 #box1:hover{
   box-shadow: var(--orange-shadow);
+  margin-top: 10px;
+  transition: 1s;
 
 }
 
 #box2:hover{
  box-shadow: var(--turquoise-shadow);
+ margin-top: 10px;
+ transition: 1s;
 }
 
 #box3:hover{
   box-shadow: var(--light-blue-shadow);
+  margin-top: 10px;
+  transition: 1s;
 }
 
 #box4:hover{
   box-shadow: var(--gray-shadow);
+  margin-top: 10px;
+  transition: 1s;
 }
 
 button:hover{
