@@ -1,0 +1,145 @@
+/* Wykorzystaj zmienne CSS, przykładowe uycie: 
+color: var(--primary-color); */
+
+:root {
+  --font: "Roboto", sans-serif;
+  --bg-gradient: linear-gradient(135deg, #5d5f73 0%, #2f2f3d 100%);
+  --primary-color: white;
+  --secondary-color: #d9dfe7;
+
+  --orange-gradient: linear-gradient(180deg, #ecb920 0%, #e2b11c 100%);
+  --turquoise-gradient: linear-gradient(180deg, #55dce7 0%, #3dcad4 100%);
+  --light-blue-gradient: linear-gradient(180deg, #6bdfff 0%, #3dacfc 100%);
+  --gray-gradient: linear-gradient(180deg, #bfcedc 0%, #939fb3 100%);
+
+  --orange-shadow: rgba(236, 185, 32, 0.5);
+  --turquoise-shadow: rgba(85, 220, 231, 0.5);
+  --light-blue-shadow: rgba(107, 223, 255, 0.5);
+  --gray-shadow: rgba(191, 206, 220, 0.5);
+
+  --most-popular-bg: rgba(0, 0, 0, 0.1);
+  --button-hover-bg: #ffffff3d;
+
+  --card-width: 286px;
+  --card-height: 620px;
+}
+
+body{
+  background: var(--bg-gradient);
+  font-family: var(--font);
+  color: var(--primary-color)
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+.FlexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  overflow: auto;
+  flex-direction: row;
+}
+
+.FlexContainer div {
+  width: var(--card-width);
+  height: var(--card-height);
+  margin: 5px;
+  text-align: center;
+  color: var(--primary-color);
+  margin-top: 50px;
+}
+
+
+#box1{
+  background: var(--orange-gradient);
+}
+
+#box2{
+  background: var(--turquoise-gradient);
+}
+
+#box3{
+  background: var(--light-blue-gradient);
+}
+
+#box4{
+  background: var(--gray-gradient);
+}
+
+ul{
+  text-align: left;
+  list-style-type: none;
+  padding-left: 24px;
+}
+
+button{
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  background: none;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 80px;
+  font-weight: bold;
+}
+
+#opis{
+  text-align: left;
+  margin-left: 25px;
+  margin-top: -24px;
+}
+
+h2{
+  text-align: left;
+  margin-left: 25px;
+}
+
+img{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+article{
+  font-size: 60px;
+  margin: -30px;
+  font-weight: bold;
+  text-align: left;
+}
+
+sup{
+  font-size: 20px;
+}
+
+#box1:hover{
+  box-shadow: var(--orange-shadow);
+
+}
+
+#box2:hover{
+ box-shadow: var(--turquoise-shadow);
+}
+
+#box3:hover{
+  box-shadow: var(--light-blue-shadow);
+}
+
+#box4:hover{
+  box-shadow: var(--gray-shadow);
+}
+
+button:hover{
+  color: #000;
+  background-color: white;
+  transition: 1s;
+}
